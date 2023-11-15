@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+RewriteEngine On
+RewriteCond %{index} !-d
+RewriteCond %{index} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
 <head>
     <title>Luiz Furmann</title>
     <meta charset="UTF-8">
