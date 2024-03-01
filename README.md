@@ -1,4 +1,4 @@
-![profile](https://github.com/LuizFurmann/furmannSoft/assets/72764480/f117e4cb-445f-464c-ab85-dfcaa8addd6f) Luiz Alberto Furmann | Android | Kotlin | Java
+![profile - Copia](https://github.com/LuizFurmann/furmannSoft/assets/72764480/40e0709b-9d75-4b33-bcf6-25ac7523760c) Luiz Alberto Furmann | Android | Kotlin | Java
 
 Formado em Engenharia de Software, trabalho com desenvolvimento de aplicativos Android, apaixonado pela minha profissão,
 sempre buscando evoluir para assim poder entregar cada vez mais meus produtos com qualidade.
