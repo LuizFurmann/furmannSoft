@@ -1,5 +1,4 @@
-
-![profile (1)](https://github.com/LuizFurmann/furmannSoft/assets/72764480/2fb5a5ab-3405-4bb7-98e4-f127a1261222)
+![profile (1)](https://github.com/LuizFurmann/furmannSoft/assets/72764480/d94af05e-85c0-431d-ae5c-c5f7eda32915)
 
                                                         Sobre
 Formado em Engenharia de Software, trabalho com desenvolvimento de aplicativos Android, apaixonado pela minha profissão,
