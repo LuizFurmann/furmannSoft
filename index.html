@@ -33,11 +33,12 @@
             <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
             <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Sobre</a>
             <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Portfólio</a>
+            <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Skills</a>
             <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contato</a>
         </div>
     </div>
 
-    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+
     <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
         style="margin-top:46px">
         <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sobre</a>
@@ -46,7 +47,7 @@
     </div>
 
 
-    <!-- The Band Section -->
+
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="about">
         <img src="public/assets/images/foto.png" style="width:150px; border-radius: 50%;">
         <h2 class="w3-wide">Sobre</h2>
@@ -59,13 +60,12 @@
 
     </div>
 
-    <!-- The Tour Section -->
+
     <div class="w3-black" id="portfolio">
         <div class="w3-container w3-content w3-padding-64" style="max-width:1000px">
             <h2 class="w3-wide w3-center">Portfólio</h2>
             <p class="w3-opacity w3-center"><i>Aqui você pode ver alguns dos meus trabalhos!</i></p><br>
 
-            <!-- First Photo Grid-->
             <div class="w3-col-padding">
                 <div class="w3-third w3-container w3-margin-bottom">
                     <a href="app_task_firebase.html"><img src="public/assets/images/android_task/banner-task.jpg" alt="Controle de ordens web"
@@ -92,7 +92,7 @@
                 </div>
             </div>
 
-            <!-- Second Photo Grid-->
+
             <div class="w3-row-padding">
                 <div class="w3-third w3-container w3-margin-bottom">
                     <a href="app_gymmobi.html"><img src="public/assets/images/gymmobi/banner_gymmobi.jpg" alt="GymMobi"
@@ -105,13 +105,69 @@
         </div>
     </div>
 
-    <!-- The Contact Section -->
-    <div class="w3-container w3-content w3-padding-64" style="max-width:1000px" id="contact">
+
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1500px" id="skills">
+            
+            <div class="w3-row-padding w3-center w3-margin-top">
+                <div class="w3-third">
+                  <div class="w3-card w3-container" style="min-height:460px">
+                  <h3>Android</h3><br>
+                  <img src="public/assets/images/android.png" style="width:150px;">
+                  <p>Desenvolvimento de aplicativos com Kotlin e Java</p>
+                  <p>Arquitetura MVVM</p>
+                  <p>Firebase</p>
+                  <p>Retrofit e Volley</p>
+                  <p>Injeção de dependência com Hilt e Dagger2</p>
+                  <p>Controle de fluxo com Coroutines</p>
+                  <p>Google Maps</p>
+                  <p>Teste unitário</p>
+                  <p>Teste de interface com Espresso</p>
+                  <p>Criação de layouts, UX (user experience design)</p>
+                  <p>Publicação de aplicativo na Google Play</p>
+                  <p>Armazenamento local com Room Database</p>
+                  <p>Criação de layout com Constraint layout, ViewBinding</p>
+                  <p>Gradle</p>
+                  </div>
+                </div>
+                
+                <div class="w3-third">
+                  <div class="w3-card w3-container" style="min-height:460px">
+                  <h3>Engenharia de Software</h3><br>
+                  <img src="public/assets/images/software_engineer.png" style="width:150px;">
+                  <p>Desenvolvimento ágil com Scrum</p>
+                  <p>Clean code</p>
+                  <p>Arquitetura de Software MVVM, MVC</p>
+                  <p>Banco de dados</p>
+                  <p>Levantamento de requisitos</p>
+                  <p>Documentação de Software</p>
+                  <p>Análise de riscos</p>
+                  <p>Segurança da informação</p>
+                  </div>
+                </div>
+                
+                <div class="w3-third">
+                  <div class="w3-card w3-container" style="min-height:460px">
+                  <h3>Outras habilidades</h3><br>
+                  <img src="public/assets/images/skills.png" style="width:150px;">
+                  <p>Criação de API com Spring Boot Java</p>
+                  <p>HTML, CSS, JavaScript</p>
+                  <p>Git, GitLab, Bitbucket</p>
+                  <p>MySql</p>
+                  <p>Linux</p>
+                  <p>Diagramas UML</p>
+                  <p>Jira</p>
+                  </div>
+                </div>
+                </div>
+        </div>
+
+
+    <div class="w3-container w3-black w3-center w3-content w3-padding-64" style="max-width:100%" id="contact">
         <h2 class="w3-wide w3-center">Contato</h2>
         <p class="w3-opacity w3-center" style="font-size:20px;"><i>Entre em contato e vamos entender sua necessidade
                 hoje mesmo!</i></p>
-        <div class="w3-row w3-padding-32">
-            <div class="w3-col m6 w3-large w3-margin-bottom">
+        <div class="w3-row w3-center">
+            <div class="m6 w3-large w3-margin-bottom w3-center">
                 <i class="fa fa-envelope" style="width:30px"> </i> Email: furmannsoft@gmail.com<br>
                 <i class="fa fa-envelope" style="width:30px"> </i> Email: furmannluiz@gmail.com<br>
                 <i class="fa fa-phone" style="width:30px"> </i> Celular: (42) 99954-4798<br>
@@ -119,45 +175,5 @@
         </div>
     </div>
     </div>
-
-    <script>
-        // Automatic Slideshow - change image every 4 seconds
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) {
-                myIndex = 1
-            }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 4000);
-        }
-
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function myFunction() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        var modal = document.getElementById('ticketModal');
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
-
 </body>
-
 </html>
