@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-RewriteEngine On
-RewriteCond %{index} !-d
-RewriteCond %{index} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC, L]
-
 <head>
+    <link rel="icon" href="public/assets/images/luiz.ico">
     <title>Luiz Furmann</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,10 +50,10 @@ RewriteRule ^([^\.]+)$ $1.html [NC, L]
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="about">
         <img src="public/assets/images/foto.png" style="width:150px; border-radius: 50%;">
         <h2 class="w3-wide">Sobre</h2>
-        <p class="w3-justify">Formado em Engenharia de Software, trabalho com desenvolvimento de aplicativos Android,
-            apaixonado pela minha profissão, sempre buscando evoluir para assim poder
-            entregar cada vez mais meus produtos com qualidade. Trabalho a 3 anos com desenvolvimento Android, mas
-            também já tive oportunidade de atuar em projetos de desenvolvimento Web.
+        <p class="w3-justify">Formado em Engenharia de Software, trabalho com desenvolvimento de aplicativos Android utilizando Kotlin e Java.
+            Trabalho a 3 anos com desenvolvimento Android, mas também já tive oportunidade de atuar em projetos de desenvolvimento Web com Spring Boot em Java.
+            Apaixonado pela minha profissão, sempre buscando evoluir para assim poder
+            entregar cada vez mais meus produtos com qualidade, pois acredito que com a tecnologia podemos melhorar a qualidade de vida através de bons Softwares.
             Tive a grande satisfação de ter trabalhado em grandes projetos, que me ajudaram a evoluir muito como
             profissional. Entre em contato hoje mesmo para que possamos entender sua necessidade!</p>
 
@@ -72,21 +68,23 @@ RewriteRule ^([^\.]+)$ $1.html [NC, L]
             <!-- First Photo Grid-->
             <div class="w3-col-padding">
                 <div class="w3-third w3-container w3-margin-bottom">
-                  <a href="app_orders_details.html"><img src="public/assets/images/android_orders/android_controll_banner.png" alt="Controle de ordens Android"
-                        style="width:100%; border-radius: 3%;" class="w3-hover-opacity"></a>
-                    <div class="w3-container" style="margin-top: 10px;">
-                        <p><b>Aplicativo Android para controle de ordens de serviço</b></p>
-                    </div>
-                </div>
+                    <a href="app_task_firebase.html"><img src="public/assets/images/android_task/banner-task.jpg" alt="Controle de ordens web"
+                          style="width:100%; border-radius: 3%;" class="w3-hover-opacity"></a>
+                      <div class="w3-container" style="margin-top: 10px;">
+                          <p><b>Aplicativo de Tarefas com Firebase</b></p>
+                      </div>
+                  </div>
+
                 <div class="w3-third w3-container w3-margin-bottom">
-                  <a href="web_orders_details.html"><img src="public/assets/images/web_orders/web_controll_banner.png" alt="Controle de ordens web"
+                  <a href="app_orders_details.html"><img src="public/assets/images/android_orders/banner_orders.jpg" alt="Controle de ordens Android"
                         style="width:100%; border-radius: 3%;" class="w3-hover-opacity"></a>
                     <div class="w3-container" style="margin-top: 10px;">
-                        <p><b>Sistema Laravel para controle de ordens de serviço</b></p>
+                        <p><b>Aplicativo de controle de ordens de serviço</b></p>
                     </div>
                 </div>
+                
                 <div class="w3-third w3-container">
-                  <a href="hang_game_details.html"><img src="public/assets/images/hang_game/hang_game_banner.png" alt="Jogo da forca"
+                  <a href="hang_game_details.html"><img src="public/assets/images/hang_game/banner_hang.jpg" alt="Jogo da forca"
                         style="width:100%; border-radius: 3%;" class="w3-hover-opacity"></a>
                     <div class="w3-container" style="margin-top: 10px;">
                         <p><b>Jogo da forca para Android</b></p>
@@ -97,7 +95,7 @@ RewriteRule ^([^\.]+)$ $1.html [NC, L]
             <!-- Second Photo Grid-->
             <div class="w3-row-padding">
                 <div class="w3-third w3-container w3-margin-bottom">
-                    <a href="app_gymmobi.html"><img src="public/assets/images/gymmobi/gymmobi_banner.png" alt="GymMobi"
+                    <a href="app_gymmobi.html"><img src="public/assets/images/gymmobi/banner_gymmobi.jpg" alt="GymMobi"
                         style="width:100%; border-radius: 3%;" class="w3-hover-opacity"></a>
                     <div class="w3-container" style="margin-top: 10px;">
                         <p><b>Aplicativo para academia</b></p>
@@ -115,6 +113,7 @@ RewriteRule ^([^\.]+)$ $1.html [NC, L]
         <div class="w3-row w3-padding-32">
             <div class="w3-col m6 w3-large w3-margin-bottom">
                 <i class="fa fa-envelope" style="width:30px"> </i> Email: furmannsoft@gmail.com<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: furmannluiz@gmail.com<br>
                 <i class="fa fa-phone" style="width:30px"> </i> Celular: (42) 99954-4798<br>
             </div>
         </div>
